@@ -1,0 +1,149 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;    
+    color: #000000;
+    font-size: 18px;
+}
+
+
+@keyframes myanim {
+    0%{top:0; left:0;}
+    25%{top:0; left:388px;}
+    50%{top:156px; left:388px;}
+    75%{top:156px; left:0;}
+    100%{top:0; left:0;}    
+}
+
+body{
+    background-image: url(../img/vegan.png);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+/* ---Header--- */
+
+header{
+    padding: 50px;
+}
+
+.nav{      
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    gap: 84px;         
+}
+
+.nav li{  
+    padding: 22px 18px;    
+    border-radius: 0 36px 0 36px; 
+}
+
+.nav li a{
+    padding: 5px 10px;
+}
+
+.nav .production{      
+    background-color: #79B331;
+}
+
+.nav .shops{
+    background-color: #C4C4C4;    
+}
+
+ .nav .production a{
+    color: #ffffff;
+}
+
+
+/* ----Main--- */
+
+.anim{
+    width: 420px;
+    height: 188px;
+    margin-top: 60px;
+    margin-left: 1080px;     
+    text-align: center;
+    position: relative;
+    padding: 52px 0 41px 0;    
+}
+
+.ball{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #79B331;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: myanim 2s infinite;
+}
+
+.animdro{
+    font-size: 36px;
+    margin-top: 20px;
+   
+}
+
+.container{
+    width: 1062px;
+    height: 488px; 
+    margin-top: 140px;
+    margin-left: 454px;
+    display: flex;    
+    padding: 28px 0;
+    position: relative;
+}
+
+.gero{
+    width: 1px;
+    height: 430px;    
+    background-color: #C4C4C4; 
+    position: absolute;
+    left: 50%;
+    bottom: 0;    
+}
+
+.innercont{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 158px;
+}
+
+.innercont1{
+    justify-content: flex-end;
+}
+
+.box{   
+    display: flex;   
+    gap: 7px;
+}
+.text{
+    width: 454px;
+}
+
+.box1{
+    width: 70px;
+    height: 70px;
+    border-radius: 0 36px 0 36px;
+    background-color: #C4C4C4 ;
+}
+
+.grey{
+    border-radius: 36px 0 36px 0;
+}
+
+.green{    
+    background-color: #79B331;
+}
+.greenp{
+    color: #79B331;
+}
+
+
+
+
