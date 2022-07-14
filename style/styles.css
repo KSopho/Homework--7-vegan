@@ -19,6 +19,7 @@
 }
 
 body{
+    
     background-image: url(../img/vegan.png);
     background-repeat: no-repeat;
     background-size: cover;    
@@ -30,9 +31,9 @@ header{
     padding: 50px;
 }
 
-.nav{      
+.nav{   
     display: flex;
-    justify-content: flex-end; 
+    justify-content: flex-end;     
     align-items: center;
     gap: 84px;         
 }
@@ -43,7 +44,7 @@ header{
 }
 
 .nav li a{
-    padding: 5px 10px;
+    padding: 22px 18px; 
 }
 
 .nav .production{      
@@ -120,6 +121,7 @@ header{
 
 .box{   
     display: flex;   
+    flex-wrap: wrap;
     gap: 7px;
 }
 .text{
